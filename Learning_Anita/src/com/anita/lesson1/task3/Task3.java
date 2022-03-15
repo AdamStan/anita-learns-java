@@ -20,6 +20,10 @@ public class Task3 {
     }
 
     public static void main(String[] args) {
+//        System.out.println("Employee: " + new Employee());
+//        int i;
+//        Printing not initialized field would cause a compile error!
+//        System.out.println(i);
         System.out.println(department);
         printEmployees();
         Scanner sc = new Scanner(System.in);

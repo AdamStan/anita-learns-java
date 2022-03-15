@@ -1,6 +1,7 @@
 package com.anita.lesson1.task3;
 
 public class Employee {
+    // it will be 0, when default constructor used
     private int id;
     private String name;
     private String lastName;
