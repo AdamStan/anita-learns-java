@@ -31,15 +31,15 @@ public class Task3 {
         while(sc.hasNext()) {
             String answer = sc.next();
             switch (answer) {
-                case "1" -> {
+                case "1":
                     addEmployee(sc);
                     printEmployees();
-                }
-                case "q" -> {
+                    break;
+                case "q" :
                     System.out.println("The end");
                     System.exit(0);
-                }
-                default -> System.out.println("wrong input");
+                default :
+                    System.out.println("wrong input");
             }
             printMenu();
         }
